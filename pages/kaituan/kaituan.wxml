@@ -1,0 +1,44 @@
+<!--pages/kaituan/kaituan.wxml-->
+<view class='ktcontain'>
+  <view class='kttop'>
+    <view class='nav'>
+      <text>深圳</text><image mode='widthFix' src='../../images/addr.png' />
+    </view><text class='ktxian'>|</text>
+    <view class='nav'><text>全部项目</text><image mode='widthFix' src='../../images/jt.png' /></view><text class='ktxian'>|</text>
+    <view class='nav'><text>快速搜索</text></view>
+  </view>
+  <view class='ktls ty-divsize'>
+    <view class='ktleft'>
+      <image mode='widthFix' src='../../images/ggimg.jpg' />
+    </view>
+    <view class='ktright'>
+      <view class='kttt'>深圳某某医院的项目名称</view>
+      <view class='ktxxq'>成功开团12次，6个团在进行中</view>
+      <view class='ktprice'><block>开团价：<b>￥1680起</b></block><text>￥1980</text></view>
+      <navigator class='kthref'>立即开团</navigator>
+    </view>
+  </view>
+  <view class='ktls ty-divsize'>
+    <view class='ktleft'>
+      <image mode='widthFix' src='../../images/ggimg.jpg' />
+    </view>
+    <view class='ktright'>
+      <view class='kttt'>深圳某某医院的项目名称</view>
+      <view class='ktxxq'>成功开团12次，6个团在进行中</view>
+      <view class='ktprice'><block>开团价：<b>￥1680起</b></block><text>￥1980</text></view>
+      <navigator class='kthref'>立即开团</navigator>
+    </view>
+  </view>
+  <view class='ktls ty-divsize'>
+    <view class='ktleft'>
+      <image mode='widthFix' src='../../images/ggimg.jpg' />
+    </view>
+    <view class='ktright'>
+      <view class='kttt'>深圳某某医院的项目名称</view>
+      <view class='ktxxq'>成功开团12次，6个团在进行中</view>
+      <view class='ktprice'><block>开团价：<b>￥1680起</b></block><text>￥1980</text></view>
+      <navigator class='kthref'>立即开团</navigator>
+    </view>
+  </view>
+  <navigator bindtap='addMore' class='getmore'>加载更多信息 ></navigator>
+</view>

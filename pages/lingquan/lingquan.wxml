@@ -1,0 +1,37 @@
+<!--pages/lingquan/lingquan.wxml-->
+<import src="../templates/head" />
+<template is="head"></template>
+<view class="viewcontain">
+  <view class='xcon'>
+    <view class='left'>
+      <image mode='widthFix' src='../../images/indexls.jpg'/>
+    </view>
+    <view class='right'>
+      <view class='tt'>深圳某某医院某项目的优惠 <image mode='widthFix'src='../../images/hui.png' /></view>
+      <view class='xtt'>已有<b>1000</b>人领券</view>
+      <navigator>领取优惠券</navigator>
+    </view>
+  </view>
+  <view class='xcon'>
+    <view class='left'>
+      <image mode='widthFix' src='../../images/indexls.jpg'/>
+    </view>
+    <view class='right'>
+      <view class='tt'>深圳某某医院某项目的优惠 <image mode='widthFix'src='../../images/hui.png' /></view>
+      <view class='xtt'>已有<b>1000</b>人领券</view>
+      <navigator>领取优惠券</navigator>
+    </view>
+  </view>
+  <view class='xcon'>
+    <view class='left'>
+      <image mode='widthFix' src='../../images/indexls.jpg'/>
+    </view>
+    <view class='right'>
+      <view class='tt'>深圳某某医院某项目的优惠 <image mode='widthFix'src='../../images/hui.png' /></view>
+      <view class='xtt'>已有<b>1000</b>人领券</view>
+      <navigator>领取优惠券</navigator>
+    </view>
+  </view>
+
+  <navigator bindtap='addMore' class='getmore'>加载更多信息 ></navigator>
+</view>

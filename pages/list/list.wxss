@@ -1,0 +1,55 @@
+/**list.wxss**/
+@import "../static/default.wxss";
+.lsxbanner{
+  width:100%;
+  height:auto;
+  overflow:hidden;
+  line-height: 0;
+  margin:10px auto;
+  text-align: center;
+  position: relative;
+}
+.lsxbanner image{
+  width:100%;
+}
+.lsxbanner .listbotm{
+  width:100%;
+  height:auto;
+  background:rgba(255,255,255,.6);
+  position:absolute;
+  left:0;
+  bottom:0;
+  z-index: 1;
+  display: flex;
+  display: -webkit-flex;
+  justify-content: center;
+  align-items: center;
+}
+.lsxbanner .listbotm .left{
+  width:30%;
+  height:100%;
+  float:left;
+  color:#fff;
+  position: relative;
+  text-align: center;
+}
+.lsxbanner .listbotm .left image{
+  width:100%;
+}
+.lsxbanner .listbotm .left text{
+  width:100%;
+  position: absolute;
+  left:50%;
+  top:50%;
+  transform: translate(-50%,-50%);
+  -webkit-transform: translate(-50%,-50%);
+  font-size:12px;
+}
+.lsxbanner .listbotm .right{
+  width:70%;
+  height:100%;
+  float:right;
+  color:#333;
+  text-align: center;
+  font-size:12px;
+}

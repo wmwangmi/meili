@@ -1,0 +1,24 @@
+/* pages/templates/foot.wxss */
+.foottonglan{
+  width:100%;
+  height:60px;
+  position: relative;
+}
+.foottonglan .tl{
+  width: 100%;
+  height:60px;
+  line-height:60px;
+  position: fixed;
+  display: flex;
+  display: -webkit-flex;
+  justify-content: center;
+  flex-direction: row;
+  bottom:0;
+  left:0;
+}
+.foottonglan .tl view{
+  flex-grow: 1;
+  text-align:center;
+  background:#8077fc;
+  color:#fff;
+}

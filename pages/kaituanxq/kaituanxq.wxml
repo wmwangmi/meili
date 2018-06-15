@@ -1,0 +1,4 @@
+<!--pages/kaituanxq/kaituanxq.wxml-->
+<view class='ktxqban ty-divsize'>
+  <image mode='widthFix' src='../../images/ktxqimg.jpg' />
+</view>

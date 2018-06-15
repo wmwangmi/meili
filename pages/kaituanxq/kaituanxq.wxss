@@ -1,0 +1,5 @@
+/* pages/kaituanxq/kaituanxq.wxss */
+@import "../static/default.wxss";
+.ktxqban{
+  margin:10px auto;
+}

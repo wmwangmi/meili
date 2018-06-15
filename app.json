@@ -1,0 +1,42 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/list/list",
+    "pages/lingquan/lingquan",
+    "pages/kaituan/kaituan",
+    "pages/kaituanxq/kaituanxq",
+    "pages/logs/logs",
+    "pages/templates/head",
+    "pages/templates/foot"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#8077fc",
+    "navigationBarTitleText": "医院小程序",
+    "navigationBarTextStyle":"#fff",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "backgroundColor": "#fff",
+    "color": "#8077fc",
+    "selectedColor": "#372f9d",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "拼团中心"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "找医院"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "我的"
+      }
+    ]
+  }
+}

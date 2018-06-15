@@ -1,0 +1,11 @@
+<!--pages/templates/foot.wxml-->
+<template name="foot">
+  <view class='foottonglan'>
+    <view class='tl'>
+      <view><navigator>首页</navigator></view>
+      <view><navigator>拼团中心</navigator></view>
+      <view><navigator>找医院</navigator></view>
+     <view> <navigator>我的</navigator></view>
+    </view>
+  </view>
+</template>

@@ -1,0 +1,68 @@
+<!--list.wxml-->
+<import src="../templates/head" />
+<template is="head"></template>
+<view class='lsxbanner'>
+  <image mode='widthFix' src='../../images/list.jpg'/>
+  <view class='listbotm'>
+    <view class='left'>
+      <text>深圳西乡医院</text>
+      <image src='../../images/listbar.png' mode='widthFix' />
+    </view>
+    <view class='right'>五一活动</view>
+  </view>
+</view>
+<view class='lsxbanner'>
+  <image mode='widthFix' src='../../images/list.jpg'/>
+  <view class='listbotm'>
+    <view class='left'>
+      <text>深圳西乡医院</text>
+      <image src='../../images/listbar.png' mode='widthFix' />
+    </view>
+    <view class='right'>五一活动</view>
+  </view>
+</view>
+<view class='lsxbanner'>
+  <image mode='widthFix' src='../../images/list.jpg'/>
+  <view class='listbotm'>
+    <view class='left'>
+      <text>深圳西乡医院</text>
+      <image src='../../images/listbar.png' mode='widthFix' />
+    </view>
+    <view class='right'>五一活动</view>
+  </view>
+</view>
+<view class='lsxbanner'>
+  <image mode='widthFix' src='../../images/list.jpg'/>
+  <view class='listbotm'>
+    <view class='left'>
+      <text>深圳西乡医院</text>
+      <image src='../../images/listbar.png' mode='widthFix' />
+    </view>
+    <view class='right'>五一活动</view>
+  </view>
+</view>
+<view class='lsxbanner'>
+  <image mode='widthFix' src='../../images/list.jpg'/>
+  <view class='listbotm'>
+    <view class='left'>
+      <text>深圳西乡医院</text>
+      <image src='../../images/listbar.png' mode='widthFix' />
+    </view>
+    <view class='right'>五一活动</view>
+  </view>
+</view>
+<view class='lsxbanner'>
+  <image mode='widthFix' src='../../images/list.jpg'/>
+  <view class='listbotm'>
+    <view class='left'>
+      <text>深圳西乡医院</text>
+      <image src='../../images/listbar.png' mode='widthFix' />
+    </view>
+    <view class='right'>五一活动</view>
+  </view>
+</view>
+<navigator bindtap='addMore' class='getmore2'>加载更多信息 ></navigator>
+
+
+<import src="../templates/foot" />
+<template is="foot"></template>

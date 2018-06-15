@@ -1,0 +1,221 @@
+/**index.wxss**/
+@import "../static/default.wxss";
+.slide-image {
+  width:100%;
+  height:100%;
+}
+
+.index-swiper .wx-swiper-dot{
+    width:20rpx;
+    display: inline-flex;
+    height: 20rpx;
+    margin-left: 10rpx;
+    background-color:rgba(255, 255, 255, 0);
+    justify-content:space-between;
+}
+.index-swiper .wx-swiper-dot::before{
+    content: '';
+    flex-grow: 1; 
+    border:1px solid #fff;
+    background-color:rgba(255, 255, 255, 0);
+    border-radius: 100%
+}
+.index-swiper .wx-swiper-dot-active::before{
+    background:rgba(255, 255, 255, 1);
+}
+.diconls {
+  width:100%;
+  height: auto;
+  overflow: hidden;display: flex;display: -webkit-flex;flex-direction: row; align-items: center;margin:30rpx auto;
+}
+.dicons{
+  height:200rpx;
+  flex-direction: row;
+  flex-grow: 1;
+  padding:0 35rpx;
+  text-align: center;
+  color:#8077fc;
+}
+.dicons image {
+  width:100%;
+  margin:0 atuo;
+  margin-bottom:20rpx;
+}
+.dicons text{
+  font-size:28rpx;
+  text-align: center;
+}
+.fengeline{
+  width:100%;
+  height:30px;
+  margin:10px auto;
+  color:#8077fc;
+  text-align: center;
+  position:relative;
+  padding:0 10px;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+.fengeline::before{
+  content: " ";
+  width:100%;
+  height:2px;
+  display: inline-block;
+  border-top:1px solid #8077fc;
+  position:absolute;
+  bottom:50%;
+  left:0;
+  transform: translateY(-50%);
+  z-index: -1;
+}
+.fengeline text{
+  color:#8077fc;
+  font-size:14px;
+  padding:0 10px;
+  background:#fff;
+}
+.pageList{
+  width:100%;
+  height:auto;
+  overflow:hidden;
+  background:#f8f7f7;
+}
+.lscontain{
+  width:100%;
+  height:auto;
+  overflow: hidden;
+  background:#fff;
+  margin-bottom:20rpx;
+  padding:10px 0;
+}
+.leftview{
+  width:30%;
+  height:auto;
+  float:left;
+}
+.leftview image{
+  width:100%;
+  border:3px solid rgba(255,255,255,.8);
+  box-sizing:border-box;
+  -webkit-box-sizing:border-box;
+}
+.rightview {
+  width:70%;
+  height:auto;
+  float:left;
+}
+.indtitle {
+  width:100%;
+  height:auto;
+  font-size:14px;
+  word-break:keep-all;overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  margin:5px auto;
+}
+.indtitle text{
+  display: none;
+}
+.hname{
+  width:100%;
+  font-size:12px;
+  color:#767474;
+  margin:10rpx auto;
+}
+.rightview .tonglan{
+  width:100%;
+  height:auto;
+  overflow:hidden;
+  display: flex;
+  display: -webkit-flex;
+  justify-content: center;
+  line-height:20px;
+  margin-bottom:10rpx;
+}
+.andlast{
+  font-size:12px;
+  flex-grow: 1;
+}
+.alyou{
+  font-size:12px;
+  flex-grow: 5;
+}
+.indjs{
+  height:auto;
+  flex-grow: 3;
+  padding:0;
+}
+.indjs text{
+  margin:0 5px;
+  padding:5px;
+  flex-grow: 1;
+}
+.indshij{
+  width:30%;
+  height:100%;
+  font-size:14px;
+  color:#fff;
+  background: -webkit-linear-gradient(#564be5, #8077fc);
+  background: linear-gradient(#564be5, #8077fc);
+}
+.indjiage{
+  margin-top:10rpx;
+  float:left;
+  font-size:16px;
+  color:#8077fc;
+}
+.indjiage .indyj{
+  font-size:14px;
+  color:#767474;
+  margin-left:10px;
+  text-decoration: line-through;
+}
+.rightview navigator{
+  float:right;
+  background:#8077fc;
+  font-size:14px;
+  padding:5px 10px;
+  color:#fff;
+  margin-right:10px;
+  border-radius:12rpx;
+}
+.rightview navigator.navigator-hover{
+  background:#8077fc;
+}
+.miaotuan{
+  color:#8077fc;
+  font-size:12px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #aaa;
+}
+
+.usermotto {
+  margin-top: 200px;
+}

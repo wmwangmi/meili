@@ -1,0 +1,10 @@
+<!--pages/templates/head.wxml-->
+<template name="head">
+  <view class="index-inpt-wen">
+    <view class="area-tit">深圳</view>
+    <input class="search-inp" placeholder-class="inputCol" bindinput="" maxlength="200" placeholder="医院/医生/项目名称"/>
+    <view class='search-but'>
+      <icon type='search' size='25' color='#8077fc'></icon>
+    </view>
+  </view>
+</template>
